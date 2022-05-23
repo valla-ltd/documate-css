@@ -9146,58 +9146,6 @@ body.dasignature a.btn-primary:focus {
 }
 /*# sourceMappingURL=style.css.map */
 
-
-/*Primary Colors */
-a,button.daquestionbackbutton,form#dadownloadform .btn,.page-link  {
-    color: #007bff;
-}
-.dropdown-item.active, 
-.dropdown-item:active,
-.custom-control-input:checked ~ .custom-control-label::before,
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before,
-.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before,
-.custom-radio .custom-control-input:checked ~ .custom-control-label::before,
-.custom-range::-webkit-slider-thumb,
-.custom-range::-moz-range-thumb,
-.custom-range::-ms-thumb,
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #007bff;
-}
-.btn-primary,.btn-success,
-.page-item.active .page-link,
-.list-group-item.active,
-.btn-primary.disabled, .btn-primary:disabled {
-    background-color: #007bff;
-    border-color: #007bff;
-}
-/*Primary Colors end */
-
-
-
-/*hover Colors */
-.btn-primary:hover,
-#daform .da-review-action.da-review-action-button:hover,
-form#daemailform .btn:hover,
-.table-responsive + p a.btn-success:hover,
-.btn.dacollectadd:hover,
-table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
-    background-color: #0069d9;
-    border-color: #0069d9;
-    color: #fff;
-}
-table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover,
-button.btn.dacollectremoveexisting:hover,
-button.btn.dacollectremove:hover {
-    background: rgb(197 59 0 / 100%);
-    color: #fff;
-    border-color: rgb(197 59 0 / 100%);
-}
-/*hover Colors end */
-
-.btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-}
 button.daquestionbackbutton {
     padding: 0;
     border-bottom: 0;
