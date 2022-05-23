@@ -2159,7 +2159,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem #33BBFF;
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2187,9 +2187,8 @@ fieldset:disabled a.btn {
   box-shadow: none;
 }
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #212529;
-  background-color: #f4ac3b;
-  border-color: #f4ac3b;
+  background-color: #736383;
+  border-color: #736383;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   	color: #fff;
@@ -2203,84 +2202,74 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #0B5FA5;
-  border-color: #0B5FA5;
+  background-color: #6629A3;
+  border-color: #6629A3;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #094a81;
-  border-color: #094a81;
+  background-color: #732EB8;
+  border-color: #732EB8;
 }
 .btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(11, 95, 165, 0.5);
+  box-shadow: 0 0 0 0.2rem #33BBFF;
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
-  background-color: #0B5FA5;
-  border-color: #0B5FA5;
+  background-color: #736383;
+  border-color: #736383;
 }
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #094a81;
-  border-color: #073d69;
+  background-color: #4D2673;
+  border-color: #4D2673;
 }
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(11, 95, 165, 0.5);
+  box-shadow: 0 0 0 0.2rem #33BBFF;
 }
 
 .btn-success {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #6629A3;
+    border-color: #6629A3;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0069d9;
-}
-.btn-success:focus, .btn-success.focus {
-  /*box-shadow: 0 0 0 0.2rem rgba(43, 153, 153, 0.5);*/
-  box-shadow: none!important;
-  box-shadow: none!important;
+  background-color: #732EB8;
+  border-color: #732EB8;
 }
 .btn-success.disabled, .btn-success:disabled {
   color: #fff;
-  background-color: #2b9999;
-  border-color: #2b9999;
+  background-color: #736383;
+  border-color: #736383;
 }
 .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus {
-  /*box-shadow: 0 0 0 0.2rem rgba(43, 153, 153, 0.5);*/
-  box-shadow: none!important;
-  box-shadow: none!important;
+  background-color: #6629A3;
+  border-color: #6629A3;
 }
 
 .btn-info {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #6629A3;
+  border-color: #6629A3;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #1780be;
-  border-color: #1678b2;
+  background-color: #732EB8;
+  border-color: #732EB8;
 }
 .btn-info:focus, .btn-info.focus {
   box-shadow: 0 0 0 0.2rem #33BBFF;
 }
 .btn-info.disabled, .btn-info:disabled {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #736383;
+  border-color: #736383;
 }
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active, .show > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #1678b2;
-  border-color: #1471a7;
+  background-color: #6629A3;
+  border-color: #6629A3;
 }
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus, .show > .btn-info.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem #33BBFF;
@@ -2626,11 +2615,6 @@ fieldset:disabled a.btn {
   text-decoration: underline;
   background-color: transparent;
   border-color: transparent;
-}
-.btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
-  border-color: transparent;
-  box-shadow: none;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
