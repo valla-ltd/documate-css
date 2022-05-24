@@ -8642,20 +8642,6 @@ select {
   color: #fff;
 }
 
-.da-page-header, .page-header {
-  border-bottom: 0 !important;
-  display: none;
-}
-.da-page-header h3, .page-header h3 {
-  font-size: 2rem;
-  color: #244f73;
-}
-@media (min-width: 768px) {
-  .da-page-header h3, .page-header h3 {
-    font-size: 3rem;
-  }
-}
-
 .btn {
   letter-spacing: 1px;
 }
@@ -8980,10 +8966,12 @@ a.daterm:after {
     border-radius: 6px;
 }
 .da-page-header {
-    margin: 10px 0 20px;
-    border-bottom: 1px solid #ddd!important;
+    margin: 0;
     position: relative;
-    padding: 0 0 5px;
+    padding: 1rem 0;
+}
+.da-page-header > * + :not(:empty) {
+  margin-top: 0.5rem;
 }
 .da-page-header h1 {
     font-weight: bold;
