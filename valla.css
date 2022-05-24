@@ -3783,7 +3783,7 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -3803,7 +3803,7 @@ input[type=button].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1.25rem 0;
+  padding: 0;
 }
 
 .card-title {
@@ -3824,19 +3824,6 @@ input[type=button].btn-block {
 }
 .card-link + .card-link {
   margin-left: 1.25rem;
-}
-.card {
-    border: 1px solid #ececec;
-    border-radius: 4px;
-    background: #fff;
-}
-.card-header {
-  margin-bottom: 0;
-  border: 0;
-  background: transparent;
-  color: #fff;
-  padding: 0;
-  overflow: hidden;
 }
 .card-header a {
     color: #2b2c2e;
@@ -9077,13 +9064,12 @@ button.daquestionbackbutton:hover svg {
     display: inline-block;
     margin: 0 0 5px;
     padding: 5px 20px;
-    /* border: 1px solid #007bff; */
     border-radius: 50px;
-    background: rgba(0, 123, 255, 0.15);
+    background: #EDE4F6;
     transition: all ease 0.4s;
 }
 .da-attachment-download-wrapper p a:hover {
-    background: #007bff;
+    background: #732EB8;
     color: #fff;
     text-decoration: none;
 }
