@@ -3803,7 +3803,7 @@ input[type=button].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 0;
+  padding: 0.5rem 0;
 }
 
 .card-title {
@@ -3826,11 +3826,9 @@ input[type=button].btn-block {
   margin-left: 1.25rem;
 }
 .card-header a {
-    color: #2b2c2e;
     display: block;
     text-decoration: none;
-    padding: 0.75rem 0rem 0.75rem 0rem;
-    background: rgba(0, 0, 0, 0.03);
+    padding: 0.5rem 0rem;
     position: relative;
     line-height: 1.3;
     font-weight: 500;
@@ -9191,10 +9189,9 @@ form#daemailform .form-group + .form-group {
     width: 70%;
 }
 form#daemailform .btn {   
-    margin-left: auto;
-    background: #ddd;
-    color: #000;
-    border: 0;
+  height: 44px;
+  position: relative;
+  top: 1.8125em;
 }
 form#daemailform .form-group .col-md-8,form#daemailform .form-group .col-md-4 {
     padding: 0;
@@ -9204,17 +9201,6 @@ form#dadownloadform {
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column;
-}
-form#dadownloadform .btn {
-    order: 1;
-    background: transparent;
-    padding: 0;
-    border: 0;
-    text-decoration: none;
-    margin-right: 8px;
-    font-weight: 500;
-    box-shadow: none!important;
-    outline: none;
 }
 form#dadownloadform .form-group {
     order: 2;
@@ -9248,12 +9234,8 @@ h2.sr-only + .da-attachment-alert {
     border:0px;
 }
 form#daemailform input[type="email"] {
-    position: relative;
-    margin-top: -34px;
     max-width: 475px;
-    right: 0;
     width: 100%;
-    margin-left: auto;
 }
 #daquestion .card-header#daheadingOne a,
 .da-attachment-email-all .form-group label[for="da_attachment_email_address"] {
