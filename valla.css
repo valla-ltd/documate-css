@@ -3825,6 +3825,10 @@ input[type=button].btn-block {
 .card-link + .card-link {
   margin-left: 1.25rem;
 }
+.card-header {
+  background-color: transparent;
+  padding: 0.5rem 0;
+}
 .card-header a {
     display: block;
     text-decoration: none;
@@ -9120,9 +9124,6 @@ input.labelauty + label{
     border-top: 1px solid #ddd;
     padding-top: 15px;
 }
-.da-attachment-download-all .card-body {
-    padding-top: 0;
-}
 p.da-attachment-tab-download-intro {
     display: none;
 }
@@ -9190,6 +9191,7 @@ form#daemailform .form-group + .form-group {
 }
 form#daemailform .btn {   
   height: 44px;
+  margin-left: 0.5em;
   position: relative;
   top: 1.8125em;
 }
